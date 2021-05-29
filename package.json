@@ -1,0 +1,24 @@
+{
+  "name": "lucky.kr",
+  "version": "1.0.0",
+  "description": "Space to create code and characterization tests that have not been tested through legacy code. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeongbaebang/Lucky.kr.git"
+  },
+  "keywords": [
+    "TDD",
+    "mocha",
+    "wish"
+  ],
+  "author": "jeongbaebang_dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeongbaebang/Lucky.kr/issues"
+  },
+  "homepage": "https://github.com/jeongbaebang/Lucky.kr#readme"
+}
