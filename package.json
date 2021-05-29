@@ -1,5 +1,5 @@
 {
-  "name": "lucky.kr",
+  "name": "luckybutton",
   "version": "1.0.0",
   "description": "Space to create code and characterization tests that have not been tested through legacy code. ",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeongbaebang/Lucky.kr.git"
+    "url": "git+https://github.com/jeongbaebang/STUDY_legacy-luckybutton.git"
   },
   "keywords": [
     "TDD",
@@ -18,7 +18,7 @@
   "author": "jeongbaebang_dev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeongbaebang/Lucky.kr/issues"
+    "url": "https://github.com/jeongbaebang/STUDY_legacy-luckybutton/issues"
   },
-  "homepage": "https://github.com/jeongbaebang/Lucky.kr#readme"
+  "homepage": "https://github.com/jeongbaebang/STUDY_legacy-luckybutton#readme"
 }
