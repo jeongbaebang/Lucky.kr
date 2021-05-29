@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jeongbaebang/STUDY_legacy-luckybutton/issues"
   },
-  "homepage": "https://github.com/jeongbaebang/STUDY_legacy-luckybutton#readme"
+  "homepage": "https://github.com/jeongbaebang/STUDY_legacy-luckybutton#readme",
+  "dependencies": {
+    "wish": "^1.0.1"
+  }
 }
