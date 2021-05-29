@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="KO-ko">
+  <head>
+    <meta name="author" content="jeongbaebang_dev" />
+    <meta
+      name="description"
+      content="The responsibility lies with the member and the company does not take responsibility for it."
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Lucky.kr</title>
+  </head>
+  <body>
+    <div id="BETA">BETA 1.0.0</div>
+    <main class="css-wrapper">
+      <section class="css-section-main">
+        <header class="css-header">
+          <div class="css-header-info">
+            <input
+              class="css-input css-no-outline left"
+              id="js-economic-aim"
+              value="0"
+              readonly
+            />
+            <input
+              class="css-input css-no-outline css-text-right right"
+              id="js-capital"
+              value="0"
+              readonly
+            />
+          </div>
+        </header>
+
+        <section class="css-section_1">
+          <div class="css-section_1-top">
+            <div class="css-multiplication" id="js-multiplication">X2</div>
+            <div class="css-count" id="js-count">#01</div>
+            <div class="css-time" id="js-time">00:00</div>
+          </div>
+          <div>
+            <div class="css-section_1-main">
+              <div class="css-section_1-btnG" id="js-mainBtnG">
+                <button class="css-btn_1 css-no-outline" id="js-mainLeftBtn">
+                  0
+                </button>
+                <button class="css-btn_2 css-no-outline" id="js-mainRightBtn">
+                  1
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="css-section_2">
+          <div class="css-section_2-select">
+            <input
+              type="number"
+              placeholder="배팅금액은?"
+              step="500000"
+              min="0"
+              max="0"
+              id="js-betInput"
+            />
+
+            <input
+              class="css-win"
+              value="0"
+              readonly
+              placeholder="WIN"
+              id="js-winInput"
+            />
+
+            <input
+              class="css-lose"
+              value="0"
+              readonly
+              placeholder="LOSE"
+              id="js-loseInput"
+            />
+          </div>
+
+          <div class="css-section_2-btnG" id="js-sectionBtnG">
+            <button class="css-no-outline css-ready" id="js-readyBtn">
+              READY?
+            </button>
+            <button class="css-no-outline css-next" id="js-nextBtn">
+              START->
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

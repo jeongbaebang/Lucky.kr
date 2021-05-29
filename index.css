@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* 라인구역식별 */
+.line {
+  border: 1px solid black;
+}
+
+/* global */
+.css-wrapper {
+  max-width: 772px;
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+  user-select: none;
+}
+
+.css-no-outline {
+  border: none;
+  outline: none;
+}
+
+.css-text-right {
+  text-align: right;
+}
+
+button {
+  color: white;
+  width: 230px;
+  height: 130px;
+  background: #f25270;
+  position: relative;
+  margin: 30px;
+  top: 1px;
+  padding: 16px;
+  font-size: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 0px 0px #c1435b, 0px 0px 20px 0px #bbb;
+  transition: all 0.2s;
+}
+
+button:active {
+  top: 9px;
+  box-shadow: 0px 7px 0px 0px #c1435b;
+}
+
+button.css-button-active {
+  top: 9px;
+  box-shadow: 0px 7px 0px 0px #c1435b;
+}
+.disabled {
+  pointer-events: none;
+}
+
+/* main */
+.css-section-main {
+  max-width: 90%;
+  border: #f2f6f78a 3px solid;
+  box-shadow: 5px 5px 7px #c7c7c7, -5px -5px 7px #ffffff;
+  border-radius: 20px;
+}
+
+.css-header .css-header-info {
+  display: flex;
+  margin: 10px;
+}
+
+.css-header-info .css-input {
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: space-between;
+  font: 1.2em "Fira Sans", sans-serif;
+  width: 10px;
+}
+
+.css-input.right {
+  color: #5f9341;
+  font-weight: bold;
+}
+
+.css-input.left {
+  color: #e9ae0b;
+  font-weight: bold;
+}
+
+/* section#1 */
+.css-section_1 {
+  height: 250px;
+  border-bottom: #cecece 3px solid;
+}
+
+/* section#1-top */
+.css-section_1-top {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.css-section_1-top .css-multiplication,
+.css-time,
+.css-count {
+  height: 40px;
+  text-align: center;
+  font: 2em/1 "Fira Sans", sans-serif;
+
+  border: 2px solid #e6e0e0b5;
+  border-radius: 5px;
+  color: white;
+  background-color: #308ef9;
+  margin: 2px;
+  flex: 1;
+}
+
+.css-time.active {
+  background-color: #3036f9;
+  transition: all 0.3s;
+}
+
+/* section#1-main */
+.css-section_1-main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* section#1-btn */
+.css-section_1-btnG {
+  flex: 1;
+  border-bottom: #cecece 3px solid;
+  border-top: #cecece 3px solid;
+}
+
+/* section#2 */
+.css-section_2 {
+  display: flex;
+}
+
+/* section#2-select */
+.css-section_2-select {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 11px;
+  border-right: #cecece 3px solid;
+}
+
+.css-section_2-select input {
+  padding: 7px;
+  margin-bottom: 8px;
+  border: 3px solid #cecece;
+  border-radius: 3px;
+  width: 90%;
+  transition: all 0.3s;
+}
+
+.css-section_2-select .select-active {
+  border: 3px solid #f25270;
+}
+.css-section_2-select input:focus {
+  outline: none;
+}
+
+.css-section_2-select input[type~="number"] {
+  border: 3px solid #7f7f7f;
+}
+
+.css-section_2-select input[type~="number"]:focus {
+  border: 3px solid #5f9341;
+}
+
+/* section#2-select-btnG */
+.css-section_2-btnG {
+  display: flex;
+  flex-direction: column;
+}
+
+.css-section_2 .css-section_2-btnG button {
+  width: 169px;
+  height: 43px;
+  font-size: 20px;
+  margin: 12px;
+}
+
+/* button-ready */
+button.css-ready {
+  background: #fc8403;
+  box-shadow: 0px 15px 0px 0px #d06f07, 0px 0px 20px 0px #bbb;
+}
+
+button.css-ready:active {
+  top: 9px;
+  box-shadow: 0px 7px 0px 0px #d06f07;
+}
+
+button.css-ready-active {
+  top: 9px;
+  box-shadow: 0px 7px 0px 0px #d06f07;
+}
+/* button-next */
+button.css-next {
+  background: #308ef9;
+  box-shadow: 0px 15px 0px 0px #2061ab, 0px 0px 20px 0px #bbb;
+}
+
+button.css-next:active {
+  top: 9px;
+  box-shadow: 0px 7px 0px 0px #2061ab;
+}
+
+button.css-next.next-game {
+  background: #3036f9;
+  box-shadow: 0px 15px 0px 0px #15198a, 0px 0px 20px 0px #bbb;
+}
+
+button.css-next.next-game:active {
+  top: 9px;
+  box-shadow: 0px 7px 0px 0px #15198a;
+}
+
+@media (max-width: 772px) {
+  button {
+    width: 146px;
+  }
+  .css-section_1-btnG {
+    flex: 1;
+    border-top: #cecece 3px solid;
+  }
+
+  .css-section_2-btnG button {
+    width: 119px;
+    height: 43px;
+    font-size: 20px;
+    margin: 9px;
+  }
+  .css-section_2-select input {
+    width: 100%;
+  }
+}
